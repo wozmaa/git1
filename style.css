@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 10px;
+    }
+
+    .leftsubblock {
+        padding: 0 15px;
+    }
+
+    .left-side-first {
+        font-size: 3em !important;
+    }
+
+    .left-side-second {
+        margin: 15px 0 !important;
+    }
+
+    .findgift {
+        margin-top: 10px !important;
+        width: 150px !important;
+        height: 45px !important;
+    }
+
+    .rightsubblock2 .header-button {
+        margin-top: 10px !important;
+        width: 150px !important;
+        height: 45px !important;
+    }
+
+    .right-side-first2 {
+        margin-bottom: 15px !important;
+    }
+
+    .right-side-second2 {
+        margin: 0 0 10px !important;
+    }
+
+    .header-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        margin-bottom: 20px !important;
+    }
+
+    .header-button {
+        width: 110px !important;
+        height: 30px !important;
+    }
+
+    header {
+        padding: 20px !important;
+    }
+
+    .cta .wrap {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .cta .wrap p {
+        margin-bottom: 20px !important;
+    }
+
+    .cta .wrap .cta-buttons {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important
+    }
+
+    .button-primary {
+        margin-bottom: 5px;
+    }
+
+    .blog-card-info {
+        margin: 0 40px !important;
+    }
+
+    .blog-card-img {
+        width: 300px !important;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        font-size: 8px !important;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .findgift {
+        margin: 5px 0 !important;
+        width: 100px !important;
+        height: 30px !important;
+        font-size: 1em;
+    }
+
+
+    .left-side-first {
+        font-size: 2em !important;
+    }
+
+    .left-side-second {
+        margin: 7px 0 !important;
+        font-size: 1.2em !important;
+    }
+
+    .right-side-first2 {
+        margin-bottom: 10px !important;
+    }
+
+
+    .rightsubblock2 .header-button {
+        width: 110px !important;
+        height: 30px !important;
+        font-size: 1em !important;
+        margin-top: 0 !important;
+    }
+
+    .right-side-first2 {
+        font-size: 2em !important;
+    }
+
+
+    .right-side-second2 {
+        font-size: 1.2em !important;
+    }
+
+    .blog-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-card-img {
+        width: 100% !important;
+    }
+
+    .blog-card-info {
+        text-align: center;
+        padding: 20px;
+        font-size: 12px !important;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .blog-card-info h3 {
+        text-align: center;
+        font-size: 2em !important;
+    }
+
+    .blog-subcard {
+        width: 80vw !important;
+        padding: 20px !important;
+    }
+
+    .blog-subcards {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-nav li{
+        margin: 10px 0;
+        font-size: 16px !important;
+    }
+
+    footer nav {
+        width: 100vw !important;
+    }
+
+    .main-box1 {
+        font-size: 12px !important;
+    }
+}
+
+
+.logo img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 1.3em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-button {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    color: #f7941e;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button:hover {
+    background-color: #f7941e;
+    color: white;
+}
+
+header {
+    background-color: #fafafa;
+    padding: 40px;
+    width: 100%;
+}
+
+.container {
+    width: 100vw;
+    background-color: #f1f1f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.findgift {
+    margin-top: 36px;
+    width: 200px;
+    height: 60px;
+    background-color: #f7941e;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findgift:hover {
+    background-color: white;
+    color: #f7941e;
+}
+
+.left-side-block {
+    width: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-block img {
+    width: 100%;
+}
+
+.left-side-first {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.left-side-second {
+    margin-top: 36px;
+    font-size: 1.42em;
+}
+
+.leftsubblock {
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.right-side-block {
+    width: 50%;
+}
+
+.right-side-block img {
+    width: 100%;
+}
+
+.container2 {
+    width: 100vw;
+    background-color: #f1f1f2;
+    display: flex;
+}
+
+.right-side-block2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-first2 {
+    font-weight: bold;
+    font-size: 2.3em;
+    margin-bottom: 36px;
+}
+
+.right-side-second2 {
+    margin-top: 36px;
+    font-size: 1.42em;
+    margin-bottom: 36px;
+}
+
+.rightsubblock2 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.h3h4 h3 {
+    margin-top: 86px;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: normal;
+}
+
+.h3h4 h4 {
+    margin-top: 23px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 64px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.qwe {
+    height: 130px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box1 {
+    background: #FAFAFA;
+    margin-bottom: 20px;
+}
+
+.main-box1:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.main-text1 {
+    padding-left: 10px;
+    font-size: 1.42em;
+}
+
+.hrefpad {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.cta {
+    margin-top: 12%;
+    background-color: #f7941e;
+}
+
+.cta .wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 240px;
+}
+
+.cta-action {
+    width: 415px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-buttons div {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    background-color: black;
+    color: #FFF;
+}
+
+.button-secondary {
+    border: 1px solid black;
+}
+
+.cta-info h3 {
+    font-size: 2.3em;
+    margin: 0;
+}
+
+.cta-info p {
+    font-size: 2.3em;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.blog-card {
+    width: 80vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 60px auto 0;
+}
+
+.blog-card-img img {
+    width: 400px;
+
+}
+
+.blog-card-info {
+    width: 500px;
+    margin: 0 80px;
+}
+
+.blogs .wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blogs .title, .blogs .subtitle {
+    text-align: center;
+}
+
+.blogs .title {
+    font-size: 2.3em;
+    margin-top: 88px;
+}
+
+.blog-card .author {
+    font-size: 1em;
+    color: #FFF;
+}
+
+.blog-card .read-more a {
+    color: #FFF !important;
+}
+
+
+.blog-card h3 {
+    font-size: 3.4em;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.blog-subcards {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 40px;
+}
+
+.blog-subcard h4 {
+    font-size: 1.3em;
+}
+
+.blog-subcard .read-more {
+    font-size: 1em;
+}
+
+.blog-subcard {
+    width: 570px;
+    padding: 50px;
+    transition: .3s;
+}
+
+.blog-subcard:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, .05);
+}
+
+footer {
+    background-color: #FAFAFA;
+    padding: 115px 0 35px;
+}
+
+footer nav {
+    width: 600px;
+    margin: auto;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.footer-nav li {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 25px;
+}
+
+.footer-logo {
+    padding: 0 115px !important;
+}
+
+.footer-logo img {
+    width: auto;
+    color: orange;
+}
+
+.line {
+    width: 70vw;
+    margin: 55px auto;
+    border: 1px solid black;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
